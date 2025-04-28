@@ -1,0 +1,10 @@
+name = "LambdaCube"
+version = "0.1.0"
+defaultTargets = ["lambdacube"]
+
+[[lean_lib]]
+name = "LambdaCube"
+
+[[lean_exe]]
+name = "lambdacube"
+root = "Main"
